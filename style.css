@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    font-size: 1.2rem;
+  }
+  
+  body {
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* to do task container */
+  main {
+    width: 700px;
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 3px #6d758d;
+    border-radius: 15px;
+  }
+  
+  /* Input container */
+  .Container {
+    padding: 10px 20px;
+    background-color: hsl(209, 20%, 95%);
+    border-radius: 10px;
+  }
+  
+  input[type=text] {
+    width: 85%;
+    margin: 5px;
+    outline: none;
+    border: 0;
+    font-weight: 500;
+    background-color: transparent;
+  }
+  
+  .Container:active,
+  .Container input:visited {
+    background-color: hsl(209, 20%, 80%);
+  }
+  
+  .Container>i {
+    font-size: 1.5rem;
+  }
+  
+  .Container a i {
+    font-size: 0.8rem;
+    border: 2.5px solid black;
+    border-radius: 50%;
+    color: hsl(209, 20%, 95%);
+    cursor: pointer;
+  }
+  
+  
+  .space {
+    display: inline;
+    margin: 0px 180px;
+  }
+  
+  .Container~span {
+    color: hsl(206, 5%, 73%);
+    font-size: 0.8rem;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  
+  .Container~span:hover,
+  .Container~span:active {
+    color: hsl(210, 2%, 57%);
+  }
+  
+  
+  .dobCheck {
+    color: hsl(206, 5%, 73%);
+    font-size: 1.1rem;
+    margin-right: 20px;
+    font-weight: lighter;
+    cursor: pointer;
+  }
+  
+  
+  hr {
+    border: 0;
+    height: 2px;
+    margin: 8px 0px;
+    background-color: hsl(0, 0%, 92%);
+  }
+  
+  /* Task area */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  ul li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  ul li label {
+    margin-left: 20px;
+  }
+  
+  .butn {
+    position: absolute;
+    left: 90%;
+  }
+  
+  ul li:hover {
+    background-color: #f3f3f3;
+  }
+  
+  #list li span i {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+  
+  #list li input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+  }
+  
+  /* Task count area */
+  .complete {
+    display: inline;
+    margin: 0;
+  }
+  
+  /* style for task count */
+  #taskCount {
+    width: 0;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-left: 3px;
+  }
+  
+  .complete p {
+    display: inline-block;
+    margin: 0;
+    width: 50%;
+    text-align: left;
+    font-size: 0.8rem;
+    margin-right: 100px;
+  }
+  
+  .complete span {
+    display: inline-block;
+    width: 12%;
+    text-align: right;
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  
+  .complete span:hover,
+  .complete span:visited {
+    color: hsl(206, 5%, 73%);
+  }
+  
+  
+  /* buttons */
+  button {
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+  }
